@@ -2,6 +2,8 @@
 
 This repository provides an official implementation for *CoherentRaster: Efficient 3D Gaussian Splatting for Light Field Displays*
 
+[![arXiv](https://img.shields.io/badge/arXiv-2401.12345-b31b1b.svg?style=flat&logo=arxiv&logoColor=white)](https://arxiv.org/abs/2605.04509v1)
+
 ## 📖 Overview
 
 * Training and rendering were tested in a **WSL environment**.
@@ -238,7 +240,7 @@ python render_colmap.py
 - `VIEWPOINT_INDEX_MATRIX_PATH` : Path to viewpoint index matrix (`.npy`) (H x W x 3, start from 0 index)
 
 - `USING_DATA_IDX` : Index of the input view from dataset for synthesizing orbit cameras
-- `ORBIT_DIRECTION` : Camera orbit direction
+- `ORBIT_DIRECTION` : Camera orbit direction (-1 or 1)
 - `CROP_TO_FILL` : Enable crop-to-fill rendering (0 or 1)
 - `VIEW_DEGREE` : Angular range of the orbiting camera around the scene center
 
@@ -274,7 +276,7 @@ python view_colmap.py
 - `VIEWPOINT_INDEX_MATRIX_PATH` : Path to viewpoint index matrix (`.npy`) (H x W x 3, start from 0 index)
 
 - `USING_DATA_IDX` : Index of the input view from dataset for synthesizing orbit cameras
-- `ORBIT_DIRECTION` : Camera orbit direction
+- `ORBIT_DIRECTION` : Camera orbit direction (-1 or 1)
 - `CROP_TO_FILL` : Enable crop-to-fill rendering (0 or 1)
 - `VIEW_DEGREE` : Angular range of the orbiting camera around the scene center
 
