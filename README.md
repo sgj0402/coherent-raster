@@ -2,6 +2,7 @@
 
 This repository provides an official implementation for *CoherentRaster: Efficient 3D Gaussian Splatting for Light Field Displays*
 
+[![Project Page](https://img.shields.io/badge/Project-Page-blue)](https://sgj0402.github.io/coherent-raster-project-page/)
 [![arXiv](https://img.shields.io/badge/arXiv-2401.12345-b31b1b.svg?style=flat&logo=arxiv&logoColor=white)](https://arxiv.org/abs/2605.04509v1)
 
 ## 📖 Overview
