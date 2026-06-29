@@ -160,9 +160,9 @@ struct.unpack('idLLL', ...)  -> struct.unpack('idQQQ', ...)
 
 ### Viewpoint Index Matrix
 
-[[Google Drive]](https://drive.google.com/drive/folders/1HiwoMv0j5GT74Oe3Ad9j7wSBA2kXFlsi?usp=sharing)
+* H x W x 3, start from 0 index (.npy)
 
-We provide the viewpoint index matrix used in our experiments; however, the provided matrix may not be suitable for other displays due to display-specific calibration differences.
+We provide the viewpoint index matrix used in our experiments; however, the provided matrix may not be suitable for other displays due to display-specific calibration differences. [[Google Drive]](https://drive.google.com/drive/folders/1HiwoMv0j5GT74Oe3Ad9j7wSBA2kXFlsi?usp=sharing) 
 
 ### NeRF Synthetic
 
