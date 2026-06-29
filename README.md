@@ -158,6 +158,12 @@ struct.unpack('idLLL', ...)  -> struct.unpack('idQQQ', ...)
 
 ## 🗂️ Dataset Structure
 
+### Viewpoint Index Matrix
+
+[[Google Drive]](https://drive.google.com/drive/folders/1HiwoMv0j5GT74Oe3Ad9j7wSBA2kXFlsi?usp=sharing)
+
+We provide the viewpoint index matrix used in our experiments; however, the provided matrix may not be suitable for other displays due to display-specific calibration differences.
+
 ### NeRF Synthetic
 
 ```
